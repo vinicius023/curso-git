@@ -1,36 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>teste classes</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Titulo da Pagina</title>
     </head>
-    
-    <script>
-        function print() {
-            var valorKM = document.getElementsByName("valorKM").value;
-            document.getElementsByName("valorKM").style.color = "blue";
-            debugger;
-            document.getElementsByName("valorKM").style.display = "none";
-            document.getElementById("um").style.display = "block";
-            if(valorKM){
-                document.getElementById("um").innerHTML(valorKM);
-            } else {
-                document.getElementById("um").innerHTML("");
-            }
-        }
-        
-    </script>
-    <style>
-        #um {
-            width: 50px;
-            border: 1px solid black;
-            background: white;
-            display: none;
-        }
-    </style>
     <body>
-        <h1></h1>
-        <button onclick="print()">print</button>
-        <input type="money" name="valorKM" style="width:50px" maxlength="22" autocomplete="off">
-        <div id="um"></div>
+        <h1>Texto em H1</h1>
+        <div id="um">teste div com css</div>
     </body>
 </html>
